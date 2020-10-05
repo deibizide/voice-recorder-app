@@ -1,0 +1,35 @@
+.recording {
+    &__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: all 0.1s ease-in;
+    }
+
+    &__button {
+        border: none;
+        min-width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        transition: all 0.2s;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        &:hover {
+            min-width: 72px;
+            height: 72px;
+        }
+
+        &:disabled {
+            cursor: not-allowed;
+        }
+    }
+}

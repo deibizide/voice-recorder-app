@@ -1,0 +1,8 @@
+.player {
+    max-width: 450px;
+    filter: sepia(50%) invert(100%);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #6a7481;
+}
